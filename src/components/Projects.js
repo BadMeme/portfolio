@@ -1,31 +1,40 @@
 import { Container, Row, Col, Tab } from 'react-bootstrap'
 import { Nav } from 'react-bootstrap'
-import { ProjectCard } from './ProjectCard'
+import ProjectCard from './ProjectCard'
+// import projImg1 from '..assets/img/project-img1.png'
+// import projImg2 from '..assets/img/project-img2.png'
+// import projImg3 from '..assets/img/project-img3.png'
+// import projImg4 from '..assets/img/project-img4.png'
 
 // import colorSharp2 from '..assets/img/colorSharp2'
 
 const Projects = () => {
     const projects = [
         {
-            title: 'Project 1',
+            title: 'Normal Checkers',
             description: 'Checkers game + board-game engine',
-            imgUrl: projImg1,
+            // imgUrl: projImg1,
+            imgUrl: 'https://www.freeiconspng.com/thumbs/project-icon/project-icon-30.png'
         },
         {
-            title: 'Project 2',
+            title: 'bandcampLite',
             description: 'Bandcamp redisign with audio file hosting functionality',
-            imgUrl: projImg2,
+            // imgUrl: projImg2,
+            imgUrl: 'https://www.freeiconspng.com/thumbs/project-icon/project-icon-30.png'
         },
         {
-            title: 'Project 3',
-            description: 'Player metadata and stat tracker + social media site for online fps game Valorant',
-            imgUrl: projImg3,
+            title: 'val.halla',
+            description: 'Player stat tracker + forum site for online fps game Valorant',
+            // imgUrl: projImg3,
+            imgUrl: 'https://www.freeiconspng.com/thumbs/project-icon/project-icon-30.png'
         },
         {
-            title: 'Project 4',
+            title: 'ttBestiary',
             description: 'Tabletop role-playing game companion app + document manager for players and DMs',
-            imgUrl: projImg4,
+            // imgUrl: projImg4,
+            imgUrl: 'https://www.freeiconspng.com/thumbs/project-icon/project-icon-30.png'
         },
+            
     ]
 
     return(
@@ -36,7 +45,7 @@ const Projects = () => {
                     <h2>Projects</h2>
                     <p>Lorum Ipsum once again text text hahaha i just have to type stuff to test spacing i should really get a copy pasta or something</p>
                         <Tab.Container id='projects-tabs' defaultActiveKey='first'>    
-                            <Nav variant="pills" defaultActiveKey="/home">
+                            <Nav variant="pills" className='nav-pills mb-5 justify-content-center align-items-center' id='pills-tab'>
                                 <Nav.Item>
                                     <Nav.Link eventKey="first">
                                         Active
