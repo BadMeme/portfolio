@@ -11,7 +11,6 @@ import {useState, useEffect} from 'react';
 // import navIcon2 from '..assets/img/logo/svg';
 // import navIcon3 from '..assets/img/logo/svg';
 
-
 const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home')
     const [scrolled, setScrolled] = useState(false);
@@ -35,13 +34,14 @@ const NavBar = () => {
     }
 
     return (
-        <Navbar bg="light" expand="lg" className={scrolled ? "scrolled" : ''}>
+        <Navbar expand="lg" className={scrolled ? "scrolled" : ''}>
             <Container>
                 <Navbar.Brand href="#home">
                     {/* <img src='https://cdn2.vectorstock.com/i/1000x1000/80/56/chain-link-icon-on-transparent-background-vector-35608056.jpg' alt='Logo' /> */}
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Toggle aria-controls="basic-navbar-nav">
                     <span className='navbar-toggler-icon'></span>
+                </Navbar.Toggle>
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
                     <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
@@ -50,9 +50,9 @@ const NavBar = () => {
                 </Nav>
                     <span className='navbar-text'>
                         <div className='social-icon'>
-                            <a href='#'><img src='https://cdn2.vectorstock.com/i/1000x1000/80/56/chain-link-icon-on-transparent-background-vector-35608056.jpg' alt=''/>**PH**</a>
-                            <a href='#'><img src='https://cdn2.vectorstock.com/i/1000x1000/80/56/chain-link-icon-on-transparent-background-vector-35608056.jpg' alt=''/>**PH**</a>
-                            <a href='#'><img src='https://cdn2.vectorstock.com/i/1000x1000/80/56/chain-link-icon-on-transparent-background-vector-35608056.jpg' alt=''/>**PH**</a>
+                            <a href='#'><img src='https://cdn2.vectorstock.com/i/1000x1000/80/56/chain-link-icon-on-transparent-background-vector-35608056.jpg' alt=''/></a>
+                            <a href='#'><img src='https://cdn2.vectorstock.com/i/1000x1000/80/56/chain-link-icon-on-transparent-background-vector-35608056.jpg' alt=''/></a>
+                            <a href='#'><img src='https://cdn2.vectorstock.com/i/1000x1000/80/56/chain-link-icon-on-transparent-background-vector-35608056.jpg' alt=''/></a>
                         </div>
                         <button className='vvd' onclick={() => console.log('connect')}><span>**lets connect**</span></button>
                     </span>
