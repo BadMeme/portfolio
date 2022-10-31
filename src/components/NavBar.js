@@ -8,8 +8,10 @@ import {useState, useEffect} from 'react';
 
 import logo from '../assets/img/NicePng_vaporwave-grid-png_2071258.png';
 import liIcon from '../assets/img/navIcon1.png';
-// import msIcon from '../assets/img/navIcon2.jpg';
 import ghIcon from '../assets/img/navIcon3.png';
+import resume from '../assets/img/pngtree-vector-resume-icon-png-image_932447.jpeg';
+
+import { SiGithub, SiLinkedin } from 'react-icons/si';
 
 const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home')
@@ -51,9 +53,9 @@ const NavBar = () => {
                     <span className='navbar-text'>
                         <button className='vvd' onClick={() => console.log('connect')}>
                             <div className='social-icon'>
-                                <a href='https://www.linkedin.com/in/corey-m-neal/' target="_blank"><img src={liIcon} alt='LinkedIn'/></a>
-                                <a href='https://github.com/BadMeme' target="_blank"><img src={ghIcon} alt='GitHub'/></a>
-                                {/* <a href='https://acmeorg.enterprise.slack.com/user/' target="_blank"><img src={msIcon} alt='Messenger'/></a> */}
+                                <a href='https://www.linkedin.com/in/corey-m-neal/' title='LinkedIn Profile' target="_blank"><SiLinkedin /></a>
+                                <a href='https://github.com/BadMeme' title='GithubProfile' target="_blank"><SiGithub /></a>
+                                <a href='https://docs.google.com/document/d/1H7vXLqCiMOpfQBXIg2NAK6zu-jAKeEKw8-VJI8MPfeg/edit?usp=sharing' target="_blank"><img src="https://www.freeiconspng.com/uploads/resume-icon-png-4.png" alt='Resume'/></a>
                             </div>
                             <span>{' contact '}</span>
                         </button>
