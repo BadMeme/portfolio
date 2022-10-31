@@ -5,7 +5,7 @@ import { Container, Row, Col } from "react-bootstrap";
 // import navIcon1 from "../assets/img/nav-icon1.svg";
 // import navIcon2 from "../assets/img/nav-icon2.svg";
 // import navIcon3 from "../assets/img/nav-icon3.svg";
-import logo from '../assets/img/NicePng_vaporwave-grid-png_2071258.png';
+// import logo from '../assets/img/NicePng_vaporwave-grid-png_2071258.png';
 import liIcon from '../assets/img/navIcon1.png';
 import msIcon from '../assets/img/navIcon2.jpg';
 import ghIcon from '../assets/img/navIcon3.png';
