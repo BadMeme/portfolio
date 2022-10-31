@@ -14,7 +14,8 @@ const Projects = () => {
             title: 'Normal Checkers',
             description: 'Checkers game + board-game engine',
             // imgUrl: projImg1,
-            imgUrl: 'https://www.freeiconspng.com/thumbs/project-icon/project-icon-30.png'
+            imgUrl: 'https://www.freeiconspng.com/thumbs/project-icon/project-icon-30.png',
+            repo: 'https://github.com/BadMeme/project1---Normal-Checkers',
         },
         {
             title: 'bandcampLite',
@@ -26,19 +27,21 @@ const Projects = () => {
             title: 'val.halla',
             description: 'Player stat tracker + forum site for online fps game Valorant',
             // imgUrl: projImg3,
-            imgUrl: 'https://www.freeiconspng.com/thumbs/project-icon/project-icon-30.png'
+            imgUrl: 'https://www.freeiconspng.com/thumbs/project-icon/project-icon-30.png',
+            repo: 'https://github.com/BadMeme/val.halla-heroku',
         },
         {
             title: 'ttBestiary',
             description: 'Tabletop role-playing game companion app + document manager for players and DMs',
             // imgUrl: projImg4,
-            imgUrl: 'https://www.freeiconspng.com/thumbs/project-icon/project-icon-30.png'
+            imgUrl: 'https://www.freeiconspng.com/thumbs/project-icon/project-icon-30.png',
+            repo: 'https://github.com/BadMeme/TableTopBestiary'
         },
             
     ]
 
     return(
-        <section className='project' id='project'>
+        <section className='project' id='projects'>
             <Container>
                 <Row>
                     <Col>
@@ -48,17 +51,17 @@ const Projects = () => {
                             <Nav variant="pills" className='nav-pills mb-5 justify-content-center align-items-center' id='pills-tab'>
                                 <Nav.Item>
                                     <Nav.Link eventKey="first">
-                                        Active
+                                        Projects
                                     </Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
                                     <Nav.Link eventKey="second">
-                                        Option 2
+                                        In Progress
                                     </Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
                                     <Nav.Link eventKey="third">
-                                        Third
+                                        Repos
                                     </Nav.Link>
                                 </Nav.Item>
                             </Nav>

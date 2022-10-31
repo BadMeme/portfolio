@@ -1,20 +1,21 @@
-/* import custom fonts
+/* import custom fonts */
+
 @font-face {
-  font-family: Centra;
-  src: url('./assets/font/CentraNo2-Bold.ttf');
+  font-family: Cairo;
+  src: url('./assets/font/Cairo-VariableFont_wght.ttf');
   font-weight:700
 }
 @font-face {
-  font-family: Centra;
-  src: url('./assets/font/CentraNo2-Bold.ttf');
+  font-family: Cairo;
+  src: url('./assets/font/Cairo-VariableFont_wght.ttf');
   font-weight:500
 }
 @font-face {
-  font-family: Centra;
-  src: url('./assets/font/CentraNo2-Bold.ttf');
+  font-family: Cairo;
+  src: url('./assets/font/Cairo-VariableFont_wght.ttf');
   font-weight:400
 }
-*/
+
 
 /*Default CSS*/
 * {
@@ -47,6 +48,10 @@ p, a, li, button, ul {
   margin: 0;
   padding: 0;
   line-height: normal;
+  text-decoration: none;
+}
+
+a:hover {
   text-decoration: none;
 }
 
@@ -92,7 +97,7 @@ nav.navbar a.navbar-brand {
 
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
-  color: #ffffff !important;
+  color: #fff !important;
   letter-spacing: 0.8px;
   padding: 0 25px;
   font-size: 18px;
@@ -110,16 +115,8 @@ span.navbar-text {
 }
 
 .social-icon {
-  width: 42px;
-  height: 42px;
-  background: rgba(217, 217, 217, 0.1);
-  display: inline-flex;
-  border-radius: 50%;
-  margin-right: 6px;
-  align-items: center;
-  justify-content: center;
-  line-height: 1;
-  border: 1px solid rgba(255, 255, 255, 0.5)
+  display: inline-block;
+  margin-left: 14px;
 }
 
 .social-icon a {
@@ -234,8 +231,8 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 
 .banner {
   margin-top: 0;
-  padding: 260px;
-  /* background-image: url('./assets/img/banner-bg.png') */
+  padding: 260px 0 100px 0;
+  background-image: url('./assets/img/vecteezy_abstract-neon-background-with-glitch-effect_.jpg');
   background-position: top center; 
   background-size: cover;
   background-repeat: no-repeat;
@@ -245,7 +242,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  background: linear-gradient(90.21deg, rgba(180, 54, 124, 0.5) -6%, rgba(74, 47, 189, 0.5) );
+  background: linear-gradient(90.21deg, rgba(180, 54, 124, 0.5) -6%, rgba(74, 47, 189, 0.5) 112%);
   border: 1px solid rgba(2555, 255, 255, 0.5);
   font-size: 20p;
   margin-bottom: 16px;
@@ -291,17 +288,17 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 }
 
 .banner img {
-  animation: updown 3s linear infinite;
+  animation: updown 5s linear infinite;
 }
 @keyframes updown {
   0% {
-    transform: translateY(-20px);
+    filter: brightness(80%);
   }
   50% {
-    transform: translateY(20px);
+    filter: brightness(120%);
   }
   100% {
-    transform: translateY(-20px);
+    filter: brightness(80%);
   }
 }
 
@@ -328,7 +325,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 
 .skill h2 {
   font-size: 45px;
-  font-weight: 700px;
+  font-weight: 700;
 }
 
 .skill p {
@@ -339,13 +336,19 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   margin: 14px 0 75px 0;
 }
 
+.skill-slider {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
 .skill-slider .item img {
   width: 50%;
   margin: 0 auto 15px auto;
 }
 
 .background-image-left {
-  top: 20%;
+  top: 28%;
   position: absolute;
   bottom: 0;
   width: 40%;
