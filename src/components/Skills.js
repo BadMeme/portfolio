@@ -36,47 +36,47 @@ const Skills = () => {
                 <Row>
                     <Col>                        
                             <h2>Skills</h2>
-                            <p></p>
+                            {/* <p></p> */}
                         <Carousel responsive={responsive} infinite={true} className='skill-slider'>
                             <div className='item'>
                                 {/* <img src ={} alt='Image' /> */}
                                 <h5>Languages</h5>
-                                    <ul>
-                                        <li>JavaScript</li>
-                                        <li>Python</li>
-                                        <li>HTML</li>
-                                        <li>CSS</li>
-                                        <li>Mongo</li>
-                                        <li>SQL</li>
-                                        <li>JSON</li>
-                                        <li>EJS</li>
+                                    <ul className='list-group'>
+                                        <li className='list-group-item'>JavaScript</li>
+                                        <li className='list-group-item'>Python</li>
+                                        <li className='list-group-item'>HTML</li>
+                                        <li className='list-group-item'>CSS</li>
+                                        <li className='list-group-item'>Mongo</li>
+                                        <li className='list-group-item'>SQL</li>
+                                        <li className='list-group-item'>JSON</li>
+                                        <li className='list-group-item'>EJS</li>
                                     </ul>
                             </div>
                             <div className='item'>
                                 {/* <img src ={} alt='Image' /> */}
                                 <h5>Databases</h5>
-                                    <ul>
-                                        <li>MongoDB</li>
-                                        <li>postgreSQL</li>
+                                <ul className='list-group'>
+                                        <li className='list-group-item'>MongoDB</li>
+                                        <li className='list-group-item'>postgreSQL</li>
                                     </ul>
                             </div>
                             <div className='item'>
                                 {/* <img src ={} alt='Image' /> */}
                                 <h5>Frameworks</h5>
-                                    <ul>
-                                        <li>React</li>
-                                        <li>Express.js</li>
-                                        <li>Django</li>
+                                    <ul className='list-group'>
+                                        <li className='list-group-item'>React</li>
+                                        <li className='list-group-item'>Express.js</li>
+                                        <li className='list-group-item'>Django</li>
                                         
                                     </ul>
                             </div>
                             <div className='item'>
                                 {/* <img src ={} alt='Image' /> */}
                                 <h5>Libraries</h5>
-                                <ul>
-                                    <li>Jquery</li>
-                                    <li>Bootstrap</li>
-                                    <li>Bulma</li>
+                                <ul className='list-group'>
+                                    <li className='list-group-item'>Jquery</li>
+                                    <li className='list-group-item'>Bootstrap</li>
+                                    <li className='list-group-item'>Bulma</li>
                                 </ul>
                             </div> 
                         </Carousel>

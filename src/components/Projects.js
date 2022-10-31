@@ -46,7 +46,7 @@ const Projects = () => {
                 <Row>
                     <Col>
                     <h2>Projects</h2>
-                    <p>Lorum Ipsum once again text text hahaha i just have to type stuff to test spacing i should really get a copy pasta or something</p>
+                    <p>Lorum Ipsum once again text text test</p>
                         <Tab.Container id='projects-tabs' defaultActiveKey='first'>    
                             <Nav variant="pills" className='nav-pills mb-5 justify-content-center align-items-center' id='pills-tab'>
                                 <Nav.Item>

@@ -342,6 +342,17 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   position: relative;
 }
 
+.skill-slider .item {
+  margin: 20px 30px 20px 30px;
+}
+
+.skill-slider .item .list-group-item {
+  background: rgba(217, 217, 217, 0.1);
+  background: linear-gradient(to right, #0f0c29, #302b63, #320c35);
+  margin : 5px;
+  color: #fff;
+}
+
 .skill-slider .item img {
   width: 50%;
   margin: 0 auto 15px auto;
@@ -411,7 +422,8 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   position: absolute;
   width: 0;
   height: 100%;
-  background: linear-gradient(90.21deg, #AA367C -6%, #4A2FBD 111.58%);
+  background: rgba(217, 217, 217, 0.1);
+  background: linear-gradient(to right, #0f0c29, #302b63, #320c35);
   top: 0;
   left: 0;
   z-index: -1;
@@ -455,7 +467,8 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 
 .proj-imgbx::before{
   content: '';
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 112%);
+  background: rgba(217, 217, 217, 0.1);
+  background: linear-gradient(to right, #0f0c29, #302b63, #320c35);
   opacity: 0.85;
   position: absolute;
   width: 100%;
