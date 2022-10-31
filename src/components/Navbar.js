@@ -49,7 +49,7 @@ const NavBar = () => {
                     <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
                 </Nav>
                     <span className='navbar-text'>
-                        <button className='vvd' onclick={() => console.log('connect')}>
+                        <button className='vvd' onClick={() => console.log('connect')}>
                             <div className='social-icon'>
                                 <a href='https://www.linkedin.com/in/corey-m-neal/' target="_blank"><img src={liIcon} alt='LinkedIn'/></a>
                                 <a href='https://github.com/BadMeme' target="_blank"><img src={ghIcon} alt='GitHub'/></a>

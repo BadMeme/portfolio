@@ -21,7 +21,8 @@ const Projects = () => {
             title: 'bandcampLite',
             description: 'Bandcamp redisign with audio file hosting functionality',
             // imgUrl: projImg2,
-            imgUrl: 'https://www.freeiconspng.com/thumbs/project-icon/project-icon-30.png'
+            imgUrl: 'https://www.freeiconspng.com/thumbs/project-icon/project-icon-30.png',
+            repo: 'https://github.com/basementlivin/Bandcamp-Lite'
         },
         {
             title: 'val.halla',
