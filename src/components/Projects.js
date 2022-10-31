@@ -71,10 +71,12 @@ const Projects = () => {
                                     <Row>
                                         {
                                             projects.map((project, idx) => {
+                                            
                                                 return (
                                                 <ProjectCard 
                                                     key={idx}
                                                     {...project}
+                                                    
                                                 />
                                                 )
                                             })

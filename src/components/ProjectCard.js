@@ -1,6 +1,7 @@
 import {Col} from 'react-bootstrap'
 
 const ProjectCard = (props) => {
+    console.log(props)
     return (
         <Col sm={6} md={4}>
                 <div className='proj-imgbx'>
