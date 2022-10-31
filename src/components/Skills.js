@@ -54,20 +54,20 @@ const Skills = () => {
                             </div>
                             <div className='item'>
                                 {/* <img src ={} alt='Image' /> */}
-                                <h5>Databases</h5>
-                                <ul className='list-group'>
-                                        <li className='list-group-item'>MongoDB</li>
-                                        <li className='list-group-item'>postgreSQL</li>
-                                    </ul>
-                            </div>
-                            <div className='item'>
-                                {/* <img src ={} alt='Image' /> */}
                                 <h5>Frameworks</h5>
                                     <ul className='list-group'>
                                         <li className='list-group-item'>React</li>
                                         <li className='list-group-item'>Express.js</li>
                                         <li className='list-group-item'>Django</li>
                                         
+                                    </ul>
+                            </div>
+                            <div className='item'>
+                                {/* <img src ={} alt='Image' /> */}
+                                <h5>Databases</h5>
+                                <ul className='list-group'>
+                                        <li className='list-group-item'>MongoDB</li>
+                                        <li className='list-group-item'>postgreSQL</li>
                                     </ul>
                             </div>
                             <div className='item'>

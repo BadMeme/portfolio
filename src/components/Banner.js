@@ -48,10 +48,10 @@ const Banner = () => {
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
                         <span className='tagline'>Corby's Portfolio</span>
-                        <h1>{"Corby's Coding Corner"}</h1>
+                        <h1>{"Corey Neal"}</h1>
                         <h2 className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></h2>
                         <p>{bio}</p>
-                        <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25}/></button>
+                        {/* <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25}/></button> */}
                     </Col>
                     <Col xs={12} md={6} xl={7}>
                         {/* <div className={isVisible ? "animate__animated animate__zoomIn" : ""}> */}
