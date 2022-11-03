@@ -1,24 +1,10 @@
 /* import custom fonts */
 
-@font-face {
-  font-family: Cairo;
-  src: url('./assets/font/Cairo-VariableFont_wght.ttf');
-  font-weight:700;
-}
-@font-face {
-  font-family: Cairo;
-  src: url('./assets/font/Cairo-VariableFont_wght.ttf');
-  font-weight:500;
-}
-@font-face {
-  font-family: Cairo;
-  src: url('./assets/font/Cairo-VariableFont_wght.ttf');
-  font-weight:400;
-}
 
 
 /*Default CSS*/
 * {
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -115,7 +101,7 @@ span.navbar-text {
 }
 
 .social-icon {
-  display: inline;
+  display: inline-flex;
   margin-left: 10px;
 }
 
@@ -262,7 +248,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 }
 
 .banner p {
-  color: #B8B8B8;
+  color: #f8fce7;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5 em;
@@ -464,7 +450,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 
 .proj-imgbx {
   position: relative;
-  border-radius: 30px;
+  border-radius: 16px;
   overflow: hidden;
   margin-bottom: 24px;
 }
@@ -523,6 +509,9 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 }
 /* ----- */
 
+.contact {
+  border: 1px red;
+}
 /*-----------Default shit----------*/
 .App {
   text-align: center;

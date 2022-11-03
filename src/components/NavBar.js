@@ -53,9 +53,9 @@ const NavBar = () => {
                     <span className='navbar-text'>
                         <button className='vvd' onClick={() => console.log('connect')}>
                             <div className='social-icon'>
-                                <a href='https://www.linkedin.com/in/corey-m-neal/' title='LinkedIn Profile' target="_blank"><SiLinkedin /></a>
-                                <a href='https://github.com/BadMeme' title='GithubProfile' target="_blank"><SiGithub /></a>
-                                <a href='https://docs.google.com/document/d/1H7vXLqCiMOpfQBXIg2NAK6zu-jAKeEKw8-VJI8MPfeg/edit?usp=sharing' target="_blank"><img src="https://www.freeiconspng.com/uploads/resume-icon-png-4.png" alt='Resume'/></a>
+                                <a href='https://www.linkedin.com/in/corey-m-neal/' title='LinkedIn Profile' target="_blank"><SiLinkedin title='LinkedIn Profile' /></a>
+                                <a href='https://github.com/BadMeme' title='GithubProfile' target="_blank"><SiGithub title='Github Profile' /></a>
+                                <a title={'My Resumee'} href='https://docs.google.com/document/d/1H7vXLqCiMOpfQBXIg2NAK6zu-jAKeEKw8-VJI8MPfeg/edit?usp=sharing'  target="_blank"><img src="https://www.freeiconspng.com/uploads/resume-icon-png-4.png" alt='Resume'/></a>
                             </div>
                             <span>{' contact '}</span>
                         </button>
