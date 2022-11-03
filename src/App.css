@@ -507,10 +507,37 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   right: 0;
   z-index: -4;
 }
-/* ----- */
+/* Contact */
+
 
 .contact {
-  border: 1px red;
+  position: relative;
+}
+
+.contact .contact-bx {
+  background: #150018;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -60px;
+
+}
+
+/* .contact .list-group {
+  align-content: center;
+} */
+
+.contact .list-group .list-group-item {
+  background: rgba(217, 217, 217, 0.1);
+  background: linear-gradient(to right, #2d2950, #302b63, #320c35);
+  margin : 5px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.contact .list-group .list-group-item img{
+  max-height: 20px;
+  max-width: 20px;
 }
 /*-----------Default shit----------*/
 .App {
