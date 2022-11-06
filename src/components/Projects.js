@@ -42,6 +42,7 @@ const Projects = () => {
             imgUrl: projImg4,
             deploy: 'https://badmeme.github.io/Corey-Neal-iceCodeTrucker-Project---Checkers/',
             // fix this
+            deploy: 'https://tt-bestiary.herokuapp.com/'
             // imgUrl: 'https://www.freeiconspng.com/thumbs/project-icon/project-icon-30.png',
             repo: 'https://github.com/BadMeme/TableTopBestiary'
         },
