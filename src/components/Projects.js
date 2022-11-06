@@ -31,7 +31,7 @@ const Projects = () => {
             title: 'val.halla',
             description: 'Player stat tracker + forum site for online fps game Valorant',
             imgUrl: projImg3,
-            deploy: 'https://badmeme.github.io/Corey-Neal-iceCodeTrucker-Project---Checkers/',
+            deploy: 'https://val-halla-ga-sei725.netlify.app/',
             //fix this
             // imgUrl: 'https://www.freeiconspng.com/thumbs/project-icon/project-icon-30.png',
             repo: 'https://github.com/BadMeme/val.halla-heroku',
