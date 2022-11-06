@@ -90,10 +90,10 @@ const Projects = () => {
                                     </Row>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey='second'>
-                                    Lorem Ipsum
+                                    Under Construction
                                 </Tab.Pane>
                                 <Tab.Pane eventKey='third'>
-                                    Lorem Ipsum
+                                    Under Construction
                                 </Tab.Pane>
                             </Tab.Content>
                         </Tab.Container>
