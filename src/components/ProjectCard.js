@@ -9,8 +9,11 @@ const ProjectCard = (props) => {
                     <div className='proj-txtx'>
                         <h4>{props.title}</h4>
                         <span>{props.description}</span>
+                        <a href={props.deploy} target='_blank'>
+                            <p>Deploy</p>
+                        </a>
                         <a href={props.repo} target='_blank'>
-                            <p>Go and see</p>
+                            <p>Code</p>
                         </a>
                     </div>
                 </div>

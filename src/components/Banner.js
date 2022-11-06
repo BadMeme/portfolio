@@ -9,7 +9,7 @@ const Banner = () => {
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random()*100)
     // const [index, setIndex] = useState(1);
-    const toRotate = ["Software Developer", "Web Developer", "Web Designer", "UI/UX Designer", "Change These Banner.js"];
+    const toRotate = ["Backend Developer", "Full Stack Developer", "Software Engineer", "Web Developer", "Web Designer", "UI/UX Designer", "Change These Banner.js"];
     const period = 2000;
 
     
