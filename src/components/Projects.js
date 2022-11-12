@@ -12,17 +12,18 @@ import projImg4 from '../assets/img/proj4.png'
 const Projects = () => {
     const projects = [
         {
-            title: 'Normal Checkers',
-            description: 'Checkers game + board-game engine',
-            imgUrl: projImg1,
+            title: 'ttBestiary',
+            description: 'Tabletop role-playing game companion app + document manager for players and DMs',
+            imgUrl: projImg4,
+            deploy: 'https://tt-bestiary.herokuapp.com/',
             // imgUrl: 'https://www.freeiconspng.com/thumbs/project-icon/project-icon-30.png',
-            deploy: 'https://badmeme.github.io/Corey-Neal-iceCodeTrucker-Project---Checkers/',
-            repo: 'https://github.com/BadMeme/project1---Normal-Checkers',
+            repo: 'https://github.com/BadMeme/TableTopBestiary'
         },
         {
             title: 'bandcampLite',
             description: 'Bandcamp redisign with audio file hosting functionality',
             imgUrl: projImg2,
+            tech: "Javascript, HTML, CSS, Node, Express",
             // imgUrl: 'https://www.freeiconspng.com/thumbs/project-icon/project-icon-30.png',
             deploy: 'https://bandcamplite.herokuapp.com/',
             repo: 'https://github.com/basementlivin/Bandcamp-Lite'
@@ -37,13 +38,15 @@ const Projects = () => {
             repo: 'https://github.com/BadMeme/val.halla-heroku',
         },
         {
-            title: 'ttBestiary',
-            description: 'Tabletop role-playing game companion app + document manager for players and DMs',
-            imgUrl: projImg4,
-            deploy: 'https://tt-bestiary.herokuapp.com/',
+            title: 'Normal Checkers',
+            description: 'Checkers game + board-game engine',
+            imgUrl: projImg1,
+            tech: "Javascript, HTML, CSS",
             // imgUrl: 'https://www.freeiconspng.com/thumbs/project-icon/project-icon-30.png',
-            repo: 'https://github.com/BadMeme/TableTopBestiary'
+            deploy: 'https://badmeme.github.io/Corey-Neal-iceCodeTrucker-Project---Checkers/',
+            repo: 'https://github.com/BadMeme/project1---Normal-Checkers',
         },
+        
             
     ]
 

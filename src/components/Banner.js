@@ -51,10 +51,10 @@ const Banner = () => {
             <Container>
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
-                        <span className='tagline'>Corby's Portfolio</span>
+                        {/* <span className='tagline'>Corby's Portfolio</span> */}
                         <h1>{"Corey Neal"}</h1>
                         <h2 className="txt-rotate" data-period="1000" ><span className="wrap">{text}</span></h2>
-                        <p>{bio}</p>
+                        <p className='tagline'>{bio}</p>
                         {/* <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25}/></button> */}
                     </Col>
                     <Col xs={12} md={6} xl={7}>
