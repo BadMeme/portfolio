@@ -50,14 +50,14 @@ const Banner = () => {
         <section className="banner" id="home">
             <Container>
                 <Row className="align-items-center">
-                    <Col xs={12} md={6} xl={7}>
+                    <Col xs={12} md={6} xl={6}>
                         {/* <span className='tagline'>Corby's Portfolio</span> */}
                         <h1>{"Corey Neal"}</h1>
                         <h2 className="txt-rotate" data-period="1000" ><span className="wrap">{text}</span></h2>
                         <p className='tagline'>{bio}</p>
                         {/* <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25}/></button> */}
                     </Col>
-                    <Col xs={12} md={6} xl={7}>
+                    <Col xs={12} md={6} xl={6}>
                         {/* <div className={isVisible ? "animate__animated animate__zoomIn" : ""}> */}
                             <img src={headerImg} alt='Header Img' />
                         {/* </div> */}
