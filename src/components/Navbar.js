@@ -12,6 +12,7 @@ import ghIcon from '../assets/img/navIcon3.png';
 import resume from '../assets/img/pngtree-vector-resume-icon-png-image_932447.jpeg';
 
 import { SiGithub, SiLinkedin } from 'react-icons/si';
+import { BsFillFileRuledFill } from 'react-icons/bs';
 
 const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home')
@@ -56,7 +57,7 @@ const NavBar = () => {
                             <div className='social-icon'>
                                 <a href='https://www.linkedin.com/in/corey-m-neal/' title='LinkedIn Profile' target="_blank"><SiLinkedin title='LinkedIn Profile' /></a>
                                 <a href='https://github.com/BadMeme' title='GithubProfile' target="_blank"><SiGithub title='Github Profile' /></a>
-                                <a title={'My Resume'} href='https://docs.google.com/document/d/1H7vXLqCiMOpfQBXIg2NAK6zu-jAKeEKw8-VJI8MPfeg/edit?usp=sharing'  target="_blank"><img src="https://www.freeiconspng.com/uploads/resume-icon-png-4.png" alt='Resume'/></a>
+                                <a title={'My Resume'} href='https://docs.google.com/document/d/1H7vXLqCiMOpfQBXIg2NAK6zu-jAKeEKw8-VJI8MPfeg/edit?usp=sharing'  target="_blank"><BsFillFileRuledFill title='Resume' /></a>
                             </div>
                             <span>{' contact '}</span>
                         </button>

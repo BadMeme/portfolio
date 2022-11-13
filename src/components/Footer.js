@@ -1,6 +1,7 @@
 
 import { Container, Row, Col } from "react-bootstrap";
 import { SiGithub, SiLinkedin } from 'react-icons/si';
+import { BsFillFileRuledFill } from 'react-icons/bs';
 
 const Footer = () => {
   return (
@@ -16,7 +17,7 @@ const Footer = () => {
                     <div className="social-icon">
                         <a href='https://www.linkedin.com/in/corey-m-neal/' title='LinkedIn profile' target="_blank"><SiLinkedin /></a>
                         <a href='https://github.com/BadMeme' title="Github account" target="_blank"><SiGithub /></a>
-                        <a href='https://docs.google.com/document/d/1H7vXLqCiMOpfQBXIg2NAK6zu-jAKeEKw8-VJI8MPfeg/' title='My Resume' target="_blank"><img src="https://www.freeiconspng.com/uploads/resume-icon-png-4.png" alt='Resume'/></a>
+                        <a href='https://docs.google.com/document/d/1H7vXLqCiMOpfQBXIg2NAK6zu-jAKeEKw8-VJI8MPfeg/' title='My Resume' target="_blank"><BsFillFileRuledFill/></a>
                     </div>
                     
                 </Col>
