@@ -37,7 +37,7 @@ const Projects = () => {
             deploy: 'https://val-halla-ga-sei725.netlify.app/',
             //fix this
             // imgUrl: 'https://www.freeiconspng.com/thumbs/project-icon/project-icon-30.png',
-            tech: 'React, JavaScript, Express, Node.js'
+            tech: 'React, JavaScript, Express, Node.js',
             repo: 'https://github.com/BadMeme/val.halla-heroku',
         },
         {
