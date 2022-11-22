@@ -275,6 +275,12 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 
 .banner img {
   max-width: 50;
+  /* border-radius: 50%;
+  border-color: #302b63;
+  border: 2px solid #fff;
+  opacity: 0.8;
+  filter: invert(.1) 
+  filter: opacity(0.4); */
   animation: glow 5s linear infinite;
 }
 @keyframes glow {
