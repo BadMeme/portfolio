@@ -17,6 +17,7 @@ const Projects = () => {
             imgUrl: projImg4,
             deploy: 'https://tt-bestiary.herokuapp.com/',
             // imgUrl: 'https://www.freeiconspng.com/thumbs/project-icon/project-icon-30.png',
+            tech: 'Python, Django, postgreSQL, Bulma',
             repo: 'https://github.com/BadMeme/TableTopBestiary'
         },
         {
@@ -26,6 +27,7 @@ const Projects = () => {
             tech: "Javascript, HTML, CSS, Node, Express",
             // imgUrl: 'https://www.freeiconspng.com/thumbs/project-icon/project-icon-30.png',
             deploy: 'https://bandcamplite.herokuapp.com/',
+            tech: 'JavaScript, Express, Node.js',
             repo: 'https://github.com/basementlivin/Bandcamp-Lite'
         },
         {
@@ -35,6 +37,7 @@ const Projects = () => {
             deploy: 'https://val-halla-ga-sei725.netlify.app/',
             //fix this
             // imgUrl: 'https://www.freeiconspng.com/thumbs/project-icon/project-icon-30.png',
+            tech: 'React, JavaScript, Express, Node.js'
             repo: 'https://github.com/BadMeme/val.halla-heroku',
         },
         {
